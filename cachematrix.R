@@ -30,7 +30,7 @@ cacheSolve <- function (x, ...)
   if (!is.null (result))
   {
     message ("Retrieving cached data...")
-    return result
+    return (result)
   }
   data <- x$get()
   result <- solve (data, ...)
